@@ -2,11 +2,6 @@
 
 "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA)
 
-
-#### Cloning the project
-
-git clone this [repo](git@github.com:divinecharlotte/math-magician.git)
-
 ##### For validation detection using Webhint Run
 
 npx hint .
@@ -16,7 +11,7 @@ npx hint .
 In the project directory, you can run:
 
 ### `npm start`
-
+once you have cloned the repo
 
 
 

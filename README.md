@@ -5,8 +5,7 @@
 
 #### Cloning the project
 
-git clone this [repo](git@github.com:divinecharlotte/math-magician.git) 
-
+git clone this [repo](git@github.com:divinecharlotte/math-magician.git)
 
 ##### For validation detection using Webhint Run
 

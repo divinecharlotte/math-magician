@@ -17,10 +17,19 @@ body {
   align-items: center;
 }
 
-b {
+button {
   font-size: 20px;
   font-weight: 600;
   padding: 25px 0;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background-color: rgba(0, 0, 0, 0.03);
 }
 
 .calculator-main-cont {
@@ -54,8 +63,8 @@ b {
   grid-template-columns: 2fr 1fr;
 }
 
-.calculator-numbers b,
-.calculator-symbol-cont b {
+.calculator-numbers button,
+.calculator-symbol-cont button {
   border-right: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }

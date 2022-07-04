@@ -6,43 +6,53 @@ body {
 }
 
 body {
-  width: 100%;
-}
-
-.App {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: #320536;
+  background-repeat: no-repeat;
 }
 
 button {
   font-size: 20px;
   font-weight: 600;
-  padding: 25px 0;
+  padding: 20px 0;
+  margin: 15px;
   outline: none;
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: #ddd2e0;
+  border-radius: 30%;
 }
 
 button:hover,
 button:focus {
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(107, 13, 26, 0.03);
 }
 
 .calculator-main-cont {
-  width: 600px;
+  float: right;
+  width: 400px;
   height: auto;
-  background-color: #f5f5f5;
+  background-color: #320536;
+  border: white solid 2px;
+  border-radius: 7px;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 5%;
+  justify-content: space-around;
+}
+
+.calculator-p {
+  font-size: 40px;
+  color: #ddd2e0;
 }
 
 .calculator-output {
   background-color: #c4c4c4;
   text-align: end;
-  padding: 25px 10px;
-  color: #fff;
+  padding: 20px 10px;
+  color: #320536;
   font-size: 30px;
   font-weight: 500;
 }
@@ -65,13 +75,60 @@ button:focus {
 
 .calculator-numbers button,
 .calculator-symbol-cont button {
-  border-right: 1px solid #e5e5e5;
-  border-bottom: 1px solid #e5e5e5;
+  border: 1px solid #e5e5e5;
 }
 
 .calculator-symbol-cont {
-  background-color: rgba(255, 115, 0, 0.7);
+  background-color: #ddd2e0;
   text-align: center;
   display: grid;
   grid-template-columns: auto;
+  border: 1px solid #ddd2e0;
+}
+
+.symbol-button {
+  color: #320536;
+  border: #320536 solid 1px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  color: #ddd2e0;
+  background-image: linear-gradient(to bottom right, #320536, #f162ff);
+}
+
+.nav-links {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ddd2e0;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-links a :hover {
+  text-decoration: underline;
+  color: #830808;
+  transition: 2s;
+}
+
+.home-content {
+  width: 80%;
+  margin: auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+  color: #ddd2e0;
+  font-size: 20px;
 }

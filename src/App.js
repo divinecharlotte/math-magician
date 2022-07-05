@@ -16,7 +16,7 @@ class App extends react.Component {
       <div className="app">
         <BrowserRouter>
           <Nav />
-          <Routes>
+          <Routes basename={process.env.PUBLIC_URL}>
             <Route path="/" element={<Home />} />
             <Route path="/Quote" element={<Quote />} />
             <Route path="/Calculator" element={<Calculator />} />

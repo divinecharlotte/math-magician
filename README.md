@@ -7,6 +7,9 @@
 ![math2](https://user-images.githubusercontent.com/60146030/177217050-c427d549-ddba-4e7a-91fd-2f807a3ffb2b.JPG)
 ![math3](https://user-images.githubusercontent.com/60146030/177217076-7cfa1480-ea2b-48a9-83a8-ba6f4742a6de.JPG)
 
+### live demo
+ - [Netlify live demo](https://thunderous-sawine-3c7e05.netlify.app/)
+ - [Heroku live demo](https://math-magician-ap.herokuapp.com/)
 ##### For validation detection using Webhint Run
 
 npx hint .
